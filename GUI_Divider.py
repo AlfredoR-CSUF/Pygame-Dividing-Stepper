@@ -3,20 +3,27 @@ import math
 import time
 import array 
 pygame.init()
-#testing git ext
+
 white = (255, 255, 255)
 green = (0, 255, 0)
 blue = (77,77,255)
 
 screen = pygame.display.set_mode((700,700))
 pygame.display.set_caption('Division Stepper')
-font = pygame.font.SysFont("Arial", 30)
 
+#Fonts 
+#######################################
+font = pygame.font.SysFont("Arial", 30)
+#######################################
+
+#Starting Screen
+#################################################################################
 askstring =  font.render("Please enter your 2 numbers into console...", 1, white)
 askstring_rect = askstring.get_rect()
 askstring_rect.center = ((350,350))
 screen.blit(askstring, askstring_rect)
 pygame.display.update()
+################################################################################
 
 num1 = input()
 num2 = input()
@@ -24,6 +31,7 @@ rem_counter = 0
 rem_array = array.array('d', [1,2,3,4])
 num_flag = True
 
+#Division Logic 
 #################################
 if(math.fmod(int(num1), int(num2)) > int(num2)):
     rem_array[0] = math.fmod(int(num1), int(num2))
@@ -34,9 +42,9 @@ if(math.fmod(int(num1), int(num2)) > int(num2)):
         if(math.fmod(rem_array[1], int(num2)) > int(num2)):
             rem_array[2] = math.fmod(rem_array[1], int(num2))
             rem_counter+=1
-#print(remainder)
 #################################
-print(rem_counter)
+
+#Printing Function
 #################################
 def printdiv(num_of_rems):
     print('test')
@@ -46,10 +54,7 @@ def printdiv(num_of_rems):
     pygame.display.update()
     if(num_of_rems):
         for i in range(int(num_of_rems)):
-            y = y + 100
-            #print(y)
-            #print(rem_array[i])
-            print('test2')
+            y+=100
             test = "Step " + str(i+1) + ": " + str(rem_array[i]) + " / " + str(num2) + " = " + str(rem_array[i])
             screen.blit(font.render(test, 1, white), (0,y) )
             pygame.display.update()
@@ -57,6 +62,7 @@ def printdiv(num_of_rems):
         test = "Step: " + str(num1) + " / " + str(num2) + " = " + str(int(num1)/int(num2))
         screen.blit(font.render(test,1, white), (200,350))
         pygame.display.update()
+#################################
         
     
 
