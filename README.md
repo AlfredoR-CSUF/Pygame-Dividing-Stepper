@@ -12,4 +12,5 @@
 - Now, once you have made a **working state**, you can go into the *Pull Request* tab and create one from which you will be met with a guideline for your contribution description that you will be able to fill out accordingly.
  
 ## Local Testing
-- Since this project is based on python and pygame those will be the only two requirements for this project. As such there is a quick documentation for the installation of [pygame](https://www.pygame.org/wiki/GettingStarted) and for [python](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013)
+- Since this project is based on python and pygame those will be the only two requirements for this project. As such there is a quick documentation for the installation of [pygame](https://www.pygame.org/wiki/GettingStarted) and for [python](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013).
+- Once you have those downloaded and accounted for in your python path you will be able to run the python file that is within the direcrtory directly. This will create a current state of the project based on the progress of the issues.
