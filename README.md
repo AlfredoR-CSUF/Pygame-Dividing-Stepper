@@ -10,6 +10,7 @@
 - First and foremost, you will want to head to the *Issue* tab above and select one that appeals to your skillset. Once you have chosen one of them, I will be able to assign you to the specific issue so that you can begin working on it.
 - Next, you will want to create a fork of this repo so that you can organize your changes. You can do this by pressing the fork button in the top right corner.
 - Now, once you have made a **working state**, you can go into the *Pull Request* tab and create one from which you will be met with a guideline for your contribution description that you will be able to fill out accordingly.
+-- Tip
  
 ## Local Testing
 - Since this project is based on python and pygame those will be the only two requirements for this project. As such there is a quick documentation for the installation of [pygame](https://www.pygame.org/wiki/GettingStarted) and for [python](https://medium.com/co-learning-lounge/how-to-download-install-python-on-windows-2021-44a707994013).
