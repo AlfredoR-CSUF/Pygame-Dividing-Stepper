@@ -6,5 +6,8 @@
 
 ---
 
-
+##Contribution
+-First and foremost you will want to head to the *Issue* tab above and select one that appeals to your skill set. They will be organized in a fashion that provides a number along with a description of what is being requested. This will be used later in the pull request stage for quicker turn around times as it makes it simpler to idenify which part is being wokred on.
+-Now, you will want to create a fork of this repo so that you can organize your changes. This will also allow you to quickly select your changes when you go to create a pull request.
+ 
 
