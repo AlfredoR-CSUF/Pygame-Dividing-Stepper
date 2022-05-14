@@ -17,4 +17,4 @@
 - Once you have those downloaded and accounted for in your python path, you will be able to run the python file within the directory directly. This will create a current state of the project based on the progress of the issues.
 
 ## Questions or Concerns
-- You can leave any comments that you feel necessary within the issue comment section, and I will respond as soon as possible! Good luck and Have Fun!
+- You can leave any comments that you feel necessary within the issue comment section, and I will respond as soon as possible! Good luck and Have Fun! 🙂
